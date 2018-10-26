@@ -1,0 +1,76 @@
+* {
+	font-family: 'Lato', sans-serif;
+}
+
+.heroImage {
+	background-image: url(https://res.cloudinary.com/drsaojfyp/image/upload/v1540561291/wallpaper2you_387815.jpg);
+	height: 400px;
+    color: white;
+}
+
+nav {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-right: 10px;
+	margin-left: 10px;
+	padding-top: 10px;
+}
+
+.nameTitle {
+	font-size: 35px;
+}
+
+.routeLinks {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+    width: 50%;
+    align-items: center;
+}
+
+.intro {
+	text-align: center;
+	margin-top: 135px;
+	font-size: 19px;
+}
+
+.jobTitle {
+	text-align: center;
+	font-size: 42px;
+}
+
+.portfolioName {
+	text-align: center;
+	font-weight: bold;
+	margin-top: 35px;
+	margin-bottom: 20px;
+	font-size: 26px;
+
+}
+
+.portfolioHomePage {
+	width: 100%;
+}
+
+.topRow {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	margin-top: 35px;
+}
+
+.bottomRow {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	margin-top: 30px;
+}
+
+.portfolioRoute {
+	border: 1px black solid;
+	border-radius: 10px;
+	height: 220px;
+    width: 24%;
+	justify-content: space-between;
+}
